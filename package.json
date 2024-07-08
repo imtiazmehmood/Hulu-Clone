@@ -1,11 +1,12 @@
 {
-  "name": "next-js-project",
+  "name": "hulu-clone",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
@@ -13,6 +14,7 @@
     "next": "12.0.7",
     "postcss": "^8.4.5",
     "react": "17.0.2",
+    "vercel": "^34.0.0",
     "react-dom": "17.0.2",
     "react-flip-move": "^3.0.4",
     "tailwind-scrollbar-hide": "^1.1.7",
