@@ -17,9 +17,10 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         }
         height={1080}
         width={1920}
+        className="rounded-md"
       />
       <div className="p-2">
-        <p className="truncate maxw-md">{result.overview}</p>
+        <p className="truncate max-w-md">{result.overview}</p>
         <h2 className="mt-1 text-2xl text-white transition-all duration-100 ease-in-out group-hover:font-bold">
           {result.title || result.original_name}
         </h2>
